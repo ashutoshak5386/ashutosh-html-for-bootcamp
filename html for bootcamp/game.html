@@ -1,0 +1,22 @@
+﻿<!-- Created by 🌲 ASHU 🔥-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pet Simulator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        
+    </head>
+    <body> 
+        <div id="baby">
+            <img src="https://imgur.com/kLjIJs9.gif" alt="photo" id="image" onclick=beHappy()>
+        </div> 
+        <p id="age">Age: 1</p>       
+        <div id="stats">
+            <button id="b" onclick=happy()>⏫</button><progress max=100 min=0 value=20 id="hp"></progress><label>😁</label><br />
+            <button onclick=water()>+</button><progress id="drink" max=100 min=0 value=80></progress><label> 💧</label><br />
+            <button onclick=food()>+</button><progress id="hunger" max=100 min=0 value=80></progress><label> 🍔</label><br />        
+        </div>
+    </body>
+</html>

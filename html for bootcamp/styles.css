@@ -1,0 +1,49 @@
+/created by ASHU/
+
+body {
+    background-color:#999;
+}
+
+#image{
+    width:60%;
+    transform:scale(0.7);
+}
+#age{
+  font-size:120%; 
+  font-weight:bold; 
+  font-family:fantasy;
+  text-align:center;
+  margin-top:15vh;
+  letter-spacing:1px;
+}
+
+#baby{
+    text-align:center;
+    top:2vh;
+    position:relative;
+}
+
+#stats{
+    position:absolute;
+    font-weight:bold;
+    bottom:10vh;
+    left:20vw;
+}
+
+button{
+    position:relative;
+    left:-5vw;
+    font-weight:bolder;
+}
+
+label{
+    font-size:6vw;
+    left:10px;
+    position:relative;
+}
+progress{
+    display:inline;
+    position:relative;
+    margin-top:3vh;
+    width:45vw;
+}
